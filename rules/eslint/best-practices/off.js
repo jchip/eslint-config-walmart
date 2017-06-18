@@ -16,8 +16,6 @@ module.exports = {
     curly: 0,
     // require default case in switch statements
     "default-case": 0,
-    // enforces consistent newlines before or after dots
-    "dot-location": 0,
     // encourages use of dot notation whenever possible
     "dot-notation": 0,
     // require the use of === and !==

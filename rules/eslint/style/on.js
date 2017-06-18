@@ -6,8 +6,6 @@ module.exports = {
     "array-bracket-spacing": 0,
     // disallow or enforce spaces inside of single line blocks
     "block-spacing": 0,
-    // enforce one true brace style
-    "brace-style": [2, "1tbs", { allowSingleLine: true }],
     // require camel case names
     camelcase: 2,
     // enforce spacing before and after comma
@@ -32,8 +30,6 @@ module.exports = {
     "id-match": 0,
     // this option sets a specific tab width for your code
     indent: 0,
-    // specify whether double or single quotes should be used in JSX attributes
-    "jsx-quotes": [2, "prefer-double"],
     // enforces spacing between keys and values in object literal properties
     "key-spacing": [2, { beforeColon: false, afterColon: true }],
     // enforce spacing before and after keywords
@@ -56,8 +52,6 @@ module.exports = {
     "max-statements-per-line": 0,
     // require a capital letter for constructors
     "new-cap": 2,
-    // disallow the omission of parentheses when invoking a constructor with no arguments
-    "new-parens": 2,
     // allow/disallow an empty newline after var statement
     "newline-after-var": 0,
     // require newline before return statement
@@ -100,10 +94,6 @@ module.exports = {
     "no-unneeded-ternary": 0,
     // disallow whitespace before properties
     "no-whitespace-before-property": 0,
-    // require or disallow padding inside curly braces
-    "object-curly-spacing": [0, "always"],
-    // enforce placing object properties on separate lines or all on same line
-    "object-property-newline": [2, { allowMultiplePropertiesPerLine: true }],
     // allow just one var statement per function
     "one-var": [2, "never"],
     // require or disallow an newline around variable declarations
@@ -114,30 +104,14 @@ module.exports = {
     "operator-linebreak": 0,
     // enforce padding within blocks
     "padded-blocks": 0,
-    // require quotes around object literal property names
-    "quote-props": [2, "as-needed"],
-    // specify whether double or single quotes should be used
-    quotes: [2, "double", { allowTemplateLiterals: true }],
     // Require JSDoc comment
     "require-jsdoc": 0,
-    // require or disallow use of semicolons instead of ASI
-    semi: 2,
     // enforce spacing before and after semicolons
     "semi-spacing": [2, { before: false, after: true }],
     // enforce sorting import declarations within module
     "sort-imports": 0,
     // sort variables within the same declaration block
     "sort-vars": 0,
-    // require or disallow space before blocks
-    "space-before-blocks": [2, "always"],
-    // require or disallow space before function opening parenthesis
-    "space-before-function-paren": 0,
-    // require or disallow spaces inside parentheses
-    "space-in-parens": [2, "never"],
-    // require spaces around operators
-    "space-infix-ops": 2,
-    // Require or disallow spaces before/after unary operators
-    "space-unary-ops": [2, { words: true, nonwords: false }],
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses

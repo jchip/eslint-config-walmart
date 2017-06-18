@@ -141,6 +141,28 @@ module.exports = {
     // require or disallow a space immediately following the // or /* in a comment
     "spaced-comment": 0,
     // require regex literals to be wrapped in parentheses
-    "wrap-regex": 0
+    "wrap-regex": 0,
+    // require or disallow padding inside curly braces
+    "object-curly-spacing": 0,
+    // enforce placing object properties on separate lines or all on same line
+    "object-property-newline": 0,
+    // require quotes around object literal property names
+    "quote-props": 0,
+    // enforces consistent newlines before or after dots
+    "dot-location": 0,
+    // specify whether double or single quotes should be used in JSX attributes
+    "jsx-quotes": 0,
+    // require or disallow space before function opening parenthesis
+    "space-before-function-paren": 0,
+    // require or disallow space before blocks
+    "space-before-blocks": 0,
+    // require or disallow spaces inside parentheses
+    "space-in-parens": 0,
+    // require spaces around operators
+    "space-infix-ops": 0,
+    // Require or disallow spaces before/after unary operators
+    "space-unary-ops": 0,
+    // enforce one true brace style
+    "brace-style": 0
   }
 };

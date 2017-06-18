@@ -169,7 +169,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="references--prefer-const"></a><a name="2.2"></a>
 
@@ -894,7 +894,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="objects--properties-bracket"></a><a name="3.9"></a>
 
@@ -1000,7 +1000,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="objects--curly-spacing"></a><a name="3.14"></a>
 
--   [3.14](#objects--curly-spacing) Always add spacing around object curly braces.
+-   [3.14](#objects--curly-spacing) **_DEPRECATED_** Always add spacing around object curly braces.
 
     > eslint: [`object-curly-spacing`](http://eslint.org/docs/rules/object-curly-spacing)
     >
@@ -1016,11 +1016,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference. Prettier compatible.
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
+    > Walmart code style preference.
 
 <a name="objects--property-newline"></a><a name="3.15"></a>
 
--   [3.15](#objects--property-newline) Separate object properties one per line or all on one line.
+-   [3.15](#objects--property-newline) **_DEPRECATED_** Separate object properties one per line or all on one line.
 
     > eslint: [`object-property-newline`](http://eslint.org/docs/rules/object-property-newline)
     >
@@ -1045,11 +1047,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference. Prettier compatible.
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
+    > Walmart code style preference.
 
 <a name="objects--quote-props"></a><a name="3.16"></a>
 
--   [3.16](#objects--quote-props) Only quote object property literals when needed.
+-   [3.16](#objects--quote-props) **_DEPRECATED_** Only quote object property literals when needed.
 
     > eslint: [`quote-props`](http://eslint.org/docs/rules/quote-props)
     >
@@ -1072,11 +1076,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference. Prettier compatible.
 
 <a name="objects--dot-location"></a><a name="3.17"></a>
 
--   [3.17](#objects--dot-location) Dots should appear on the same line as their connecting property.
+-   [3.17](#objects--dot-location) **_DEPRECATED_** Dots should appear on the same line as their connecting property.
 
     > eslint: [`dot-location`](http://eslint.org/docs/rules/dot-location)
     >
@@ -1097,7 +1103,9 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference. Prettier compatible.
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
+    > Walmart code style preference.
 
 **[⬆️ back to top](#table-of-contents)**
 
@@ -1288,7 +1296,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="strings--quotes"></a><a name="6.1"></a>
 
--   [6.1](#strings--quotes) Use double quotes `""` or backticks \` for strings.
+-   [6.1](#strings--quotes) **_DEPRECATED_** Use double quotes `""` or backticks \` for strings.
 
     > eslint: [`quotes`](http://eslint.org/docs/rules/quotes.html)
     >
@@ -1305,6 +1313,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="strings--template-literals"></a><a name="6.2"></a>
@@ -1363,7 +1373,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="regex--no-empty-character"></a><a name="6.4"></a>
 
@@ -1578,7 +1588,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="functions--signature-spacing"></a><a name="7.7"></a>
 
--   [7.7](#functions--signature-spacing) Spacing in a function signature.
+-   [7.7](#functions--signature-spacing) **_DEPRECATED_** Spacing in a function signature.
 
     > eslint: [`space-before-function-paren`](http://eslint.org/docs/rules/space-before-function-paren), [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks)
     >
@@ -1597,6 +1607,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="functions--spread-vs-apply"></a><a name="7.8"></a>
@@ -2143,7 +2155,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="constructors--new-parens"></a><a name="8.6"></a>
 
--   [8.6](#constructors--new-parens) Always use parentheses when calling `new` on a constructor.
+-   [8.6](#constructors--new-parens) **_DEPRECATED_** Always use parentheses when calling `new` on a constructor.
 
     > eslint: [`new-parens`](http://eslint.org/docs/rules/new-parens)
     >
@@ -2159,6 +2171,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="constructors--super"></a><a name="8.7"></a>
@@ -2614,7 +2628,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="comparison--no-assign"></a><a name="11.7"></a>
 
@@ -2691,7 +2705,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="blocks--braces"></a><a name="12.1"></a>
 
--   [12.1](#blocks--braces) Use braces only with multi-line blocks.
+-   [12.1](#blocks--braces) Use braces only with multi-line blocks with consistent enforcement.
 
     > eslint: [`curly`](http://eslint.org/docs/rules/curly)
     >
@@ -2709,11 +2723,11 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference. Prettier compatible.
+    > Walmart coding standard. Prettier compatible.
 
 <a name="blocks--cuddled-elses"></a><a name="12.2"></a>
 
--   [12.2](#blocks--cuddled-elses) If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your `if` block's closing brace.
+-   [12.2](#blocks--cuddled-elses) **_DEPRECATED_** If you're using multi-line blocks with `if` and `else`, put `else` on the same line as your `if` block's closing brace.
 
     > eslint: [`brace-style`](http://eslint.org/docs/rules/brace-style.html)
     >
@@ -2740,11 +2754,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--spaces"></a><a name="12.3"></a>
 
--   [12.3](#whitespace--spaces) Use soft tabs set to 2 spaces.
+-   [12.3](#whitespace--spaces) **_DEPRECATED_** Use soft tabs set to 2 spaces.
 
     > eslint: [`indent`](http://eslint.org/docs/rules/indent.html), [`no-mixed-spaces-and-tabs`](http://eslint.org/docs/rules/no-mixed-spaces-and-tabs), [`no-trailing-spaces`](http://eslint.org/docs/rules/no-trailing-spaces)
     >
@@ -2769,11 +2785,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--before-blocks"></a><a name="12.4"></a>
 
--   [12.4](#whitespace--before-blocks) Place 1 space before the leading brace.
+-   [12.4](#whitespace--before-blocks) **_DEPRECATED_** Place 1 space before the leading brace.
 
     > eslint: [`space-before-blocks`](http://eslint.org/docs/rules/space-before-blocks.html)
     >
@@ -2805,11 +2823,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--around-keywords"></a><a name="12.5"></a>
 
--   [12.5](#whitespace--around-keywords) Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space between the argument list and the function name in function calls and declarations.
+-   [12.5](#whitespace--around-keywords) **_DEPRECATED_** Place 1 space before the opening parenthesis in control statements (`if`, `while` etc.). Place no space between the argument list and the function name in function calls and declarations.
 
     > eslint: [`keyword-spacing`](http://eslint.org/docs/rules/keyword-spacing.html)
     >
@@ -2839,11 +2859,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--infix-ops"></a><a name="12.6"></a>
 
--   [12.6](#whitespace--infix-ops) Set off operators with spaces.
+-   [12.6](#whitespace--infix-ops) **_DEPRECATED_** Set off operators with spaces.
 
     > eslint: [`space-infix-ops`](http://eslint.org/docs/rules/space-infix-ops.html)
     >
@@ -2859,6 +2881,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--newline-at-end"></a><a name="12.7"></a>
@@ -2897,7 +2921,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="whitespace--after-blocks"></a><a name="12.8"></a>
 
--   [12.8](#whitespace--after-blocks) Leave a blank line after blocks and before the next statement.
+-   [12.8](#whitespace--after-blocks) **_DEPRECATED_** Leave a blank line after blocks and before the next statement.
 
     > eslint: [`no-multiple-empty-lines`](http://eslint.org/docs/rules/no-multiple-empty-lines)
     >
@@ -2960,11 +2984,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--in-parens"></a><a name="12.9"></a>
 
--   [12.9](#whitespace--in-parens) Do not add spaces inside parentheses.
+-   [12.9](#whitespace--in-parens) **_DEPRECATED_** Do not add spaces inside parentheses.
 
     > eslint: [`space-in-parens`](http://eslint.org/docs/rules/space-in-parens.html)
     >
@@ -2994,6 +3020,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--max-len"></a><a name="12.10"></a>
@@ -3132,7 +3160,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="whitespace--no-multi"></a><a name="12.14"></a>
 
--   [12.14](#whitespace--no-multi) Don't use multiple spaces in a row.
+-   [12.14](#whitespace--no-multi) **_DEPRECATED_** Don't use multiple spaces in a row.
 
     > eslint: [`no-multi-spaces`](http://eslint.org/docs/rules/no-multi-spaces)
     >
@@ -3152,6 +3180,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="blocks--no-duplicate-case"></a><a name="12.15"></a>
@@ -3288,7 +3318,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="whitespace--objects"></a><a name="12.20"></a>
 
--   [12.20](#whitespace--objects) Use one space after the colon and zero before in objects.
+-   [12.20](#whitespace--objects) **_DEPRECATED_** Use one space after the colon and zero before in objects.
 
     > eslint: [`key-spacing`](http://eslint.org/docs/rules/key-spacing)
     >
@@ -3310,6 +3340,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="blocks--max-nested"></a><a name="12.21"></a>
@@ -3373,7 +3405,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="whitespace--function-identifier"></a><a name="12.23"></a>
 
--   [12.23](#whitespace--function-identifier) Do not add space between a function identifier and its application.
+-   [12.23](#whitespace--function-identifier) **_DEPRECATED_** Do not add space between a function identifier and its application.
 
     > eslint: [`no-spaced-func`](http://eslint.org/docs/rules/no-spaced-func)
     >
@@ -3389,11 +3421,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--semicolons"></a><a name="12.24"></a>
 
--   [12.24](#whitespace--semicolons) Always include a space after semicolons that are not at the end of a line and never include a space before a semicolon.
+-   [12.24](#whitespace--semicolons) **_DEPRECATED_** Always include a space after semicolons that are not at the end of a line and never include a space before a semicolon.
 
     > eslint: [`semi-spacing`](http://eslint.org/docs/rules/semi-spacing)
     >
@@ -3411,11 +3445,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="whitespace--unary"></a><a name="12.25"></a>
 
--   [12.25](#whitespace--unary) Use spacing after unary words and never use spacing before/after unary nonwords.
+-   [12.25](#whitespace--unary) **_DEPRECATED_** Use spacing after unary words and never use spacing before/after unary nonwords.
 
     > eslint: [`space-unary-ops`](http://eslint.org/docs/rules/space-unary-ops)
     >
@@ -3435,6 +3471,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 **[⬆️ back to top](#table-of-contents)**
@@ -3474,7 +3512,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="comments--singleline"></a><a name="13.2"></a>
 
@@ -3518,7 +3556,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="comments--todo"></a><a name="13.3"></a>
 
@@ -3576,7 +3614,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="commas--leading-trailing"></a><a name="14.1"></a>
 
--   [14.1](#commas--leading-trailing) Leading commas: **Nope.**
+-   [14.1](#commas--leading-trailing) **_DEPRECATED_** Leading commas: **Nope.**
 
     > eslint: [`comma-style`](http://eslint.org/docs/rules/comma-style.html)
     >
@@ -3616,7 +3654,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="commas--dangling"></a><a name="14.2"></a>
 
--   [14.2](#commas--dangling) Additional trailing comma: **Nope.**
+-   [14.2](#commas--dangling) **_DEPRECATED_** Additional trailing comma: **Nope.**
 
     > eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html)
     >
@@ -3648,11 +3686,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="semicolons--required"></a><a name="14.3"></a>
 
--   [14.3](#semicolons--required) Semicolons required: **Yup.**
+-   [14.3](#semicolons--required) **_DEPRECATED_** Semicolons required: **Yup.**
 
     > eslint: [`semi`](http://eslint.org/docs/rules/semi.html)
     >
@@ -3674,6 +3714,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="semicolons--no-extra"></a><a name="14.4"></a>
@@ -3747,7 +3789,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="naming--PascalCase"></a><a name="15.2"></a>
 
@@ -3781,7 +3823,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="naming--self-this"></a><a name="15.3"></a>
 
@@ -3829,7 +3871,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="naming--PascalCase-singleton"></a><a name="15.5"></a>
 
@@ -3846,7 +3888,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="accessors--boolean-prefix"></a><a name="15.6"></a>
 
@@ -3898,7 +3940,7 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
-    > Walmart code style preference.
+    > Walmart coding standard.
 
 <a name="naming--restricted-names"></a><a name="15.8"></a>
 
@@ -4168,7 +4210,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="jsx--quotes"></a><a name="17.1"></a>
 
--   [17.1](#jsx--quotes) Use double quotes for JSX attributes.
+-   [17.1](#jsx--quotes) **_DEPRECATED_** Use double quotes for JSX attributes.
 
     > eslint: [`jsx-quotes`](http://eslint.org/docs/rules/jsx-quotes)
     >
@@ -4184,6 +4226,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="react--no-deprecated"></a><a name="17.2"></a>
@@ -4452,7 +4496,7 @@ _Walmart's guide to code style and best practices_
 
 <a name="jsx--closing-bracket"></a><a name="17.13"></a>
 
--   [17.13](#jsx--closing-bracket) Align a tag's closing bracket with the opening bracket.
+-   [17.13](#jsx--closing-bracket) **_DEPRECATED_** Align a tag's closing bracket with the opening bracket.
 
     > eslint: [`react/jsx-closing-bracket-location`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
     >
@@ -4479,11 +4523,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="jsx--handler-names"></a><a name="17.14"></a>
 
--   [17.14](#jsx--handler-names) Event handlers should be prefixed `handler`.
+-   [17.14](#jsx--handler-names) **_DEPRECATED_** Event handlers should be prefixed `handler`.
 
     > eslint: [`react/jsx-handler-names`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md)
     >
@@ -4499,11 +4545,13 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="jsx--indent-props"></a><a name="17.15"></a>
 
--   [17.15](#jsx--indent-props) Multiline props should be indented 2 spaces.
+-   [17.15](#jsx--indent-props) **_DEPRECATED_** Multiline props should be indented 2 spaces.
 
     > eslint: [`react/jsx-indent-props`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md)
     >
@@ -4525,6 +4573,8 @@ _Walmart's guide to code style and best practices_
 
     > Why?
     >
+    > **_DEPRECATED_**
+    > Use [prettier] for code style formatting
     > Walmart code style preference.
 
 <a name="jsx--key"></a><a name="17.16"></a>
@@ -4599,3 +4649,5 @@ The Walmart JavaScript Style Guide was inspired by:
 -   [Prettier](https://github.com/prettier/prettier)
 
 **[⬆️ back to top](#table-of-contents)**
+
+[prettier]: https://www.npmjs.com/package/prettier

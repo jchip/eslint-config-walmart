@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-walmart",
-  "description": "A set of default eslint configurations, Walmart Labs style.",
+  "description": "A set of default eslint configurations used at WalmartLabs.",
   "version": "2.0.0",
   "author": "Eric Baer <me@ericbaer.com>",
   "homepage": "https://github.com/walmartlabs/eslint-config-walmart",
@@ -14,11 +14,13 @@
     "babel-eslint": "6.0.4",
     "eslint": "^2.0.0",
     "eslint-plugin-filenames": "1.0.0",
-    "eslint-plugin-react": "5.1.1"
+    "eslint-plugin-react": "5.1.1",
+    "prettier": "^1.4.4"
   },
   "main": "configurations/es6.js",
   "scripts": {
-    "test": "eslint configurations rules"
+    "test": "eslint configurations rules",
+    "format": "prettier --write --print-width 100 $(find configurations rules -name \"*.js\" | xargs -n 1 dirname | sort -u | xargs -n 1 -I{} echo \"{}/*.js\")"
   },
   "engines": {
     "node": ">= 0.10.0"
